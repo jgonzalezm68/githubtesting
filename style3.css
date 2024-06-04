@@ -1,0 +1,55 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Para centrar verticalmente */
+    padding: 10px 20px;
+    background-color: white;
+}
+
+h1{
+    font-size: 60px;
+    font-family: cursive;
+    text-align: center;
+}
+
+.img-header3{
+    max-width: 150px;
+   
+}
+body{
+    background-color:  #24a45c;
+}
+footer{
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 10px 0;
+}
+p{
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bolder;
+}
+a{
+    max-width: 100px;
+    margin: 0 20px; /* Ajusta esta distancia para la separación entre los íconos */
+}
+div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+h2{
+    font-size: 40px;
+}
+.img-div{
+    margin-top: 20px;
+}

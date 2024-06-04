@@ -1,0 +1,58 @@
+body{
+    background-image: url(./ImagenesAjustado/background.png);
+    background-size:auto;
+}
+h1{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    font-family:cursive;
+}
+select{
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    font-family: cursive;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: white;
+
+}
+h2{
+    font-size: 60px;
+    font-family: cursive;
+}
+.img-header1{
+    max-width: 150px;
+}
+footer {
+    position: fixed;
+    bottom: 0%; /* Ajusta esta distancia según sea necesario */
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Para centrar los íconos */
+    background-color: white;
+    align-items: center; /* Para centrar verticalmente */
+    padding: 10px 0px;
+}
+p{
+    font-size: 24px;
+    font-family: cursive;
+    font-weight: bolder;
+}
+a {
+    max-width: 100px;
+    margin: 0 20px; /* Ajusta esta distancia para la separación entre los íconos */
+}

@@ -1,0 +1,138 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #24a45c;
+}
+
+h2 {
+    font-size: 60px;
+    color: white;
+}
+
+nav {
+    font-size: 40px;
+    width: 100%;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu li {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu li.dropdown {
+    position: relative;
+}
+
+.menu li.dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.menu li.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.menu li.dropdown .add {
+    display: block;
+    width: 100%;
+    padding: 8px 16px;
+    text-align: center;
+    border: none;
+    background-color: #24a45c;
+    color: white;
+}
+
+.menu li.dropdown .add:hover {
+    background-color: #1c834c;
+}
+
+.image-item img {
+    width: 200px;
+    height: auto;
+    display: block;
+}
+
+.generarFactura {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #24a45c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.generarFactura:hover {
+    background-color: #1c834c;
+}
+
+.add{
+    cursor: pointer;
+}
+
+p{
+    font-size: 24px;
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+h6{
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+footer{
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 10px 0;
+    border-top: 1px solid #ddd; /* Agregado */
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+    
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+.p-btn{
+    font-size: 20px;
+    font-family: cursive;
+}
